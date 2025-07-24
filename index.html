@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+
+    <style id="particles-style">
+      #particles-js {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+    </style>
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <!--==================== NAV ====================-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" title="Home" class="nav__link active-link">
+            <i class="ri-home-line"></i>
+          </a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#projects" title="Projects" class="nav__link">
+            <i class="ri-folder-line"></i>
+          </a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#services" title="Services" class="nav__link">
+            <i class="ri-file-edit-line"></i>
+          </a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#experience" title="Experience" class="nav__link">
+            <i class="ri-honour-line"></i>
+          </a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#contact" title="Contact" class="nav__link">
+            <i class="ri-send-plane-line"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <!--===== PERFIL =====-->
+          <div class="perfil" id="perfil">
+            <img src="assets/img/mymg.png" alt="image" class="perfil__img" />
+            <div class="profil__data">
+              <h1 class="perfil__name">
+                Barakat <br />
+                Gallers
+              </h1>
+              <div class="profil-buttons">
+                <a href="#projects" class="button">projects</a>
+                <a href="#services" class="button button__black">Services</a>
+              </div>
+            </div>
+          </div>
+
+          <!--===== INFO =====-->
+          <div class="info">
+            <div class="info__data">
+              <div class="info__circle"></div>
+              <h1 class="info__name">Barakat Gallers</h1>
+            </div>
+
+            <p class="info__description">
+              "As a Front-End Developer, I focus on designing and developing
+              dynamic, user-centric websites that prioritize seamless
+              functionality and engaging interfaces, ensuring an exceptional
+              user experience."
+            </p>
+
+            <a
+              href="#"
+              class="button button__black"
+              >Download CV</a
+            >
+          </div>
+
+          <!--===== ABOUT =====-->
+          <div class="about">
+            <h3 class="about__name">
+              Barakat Gallers - <b>Web Designer & Developer</b>
+            </h3>
+            <p class="about__description">
+              "As a Front-End Developer, I focus on designing and developing
+              dynamic, user-centric websites that prioritize seamless
+              functionality and engaging interfaces, ensuring an exceptional
+              user experience."
+            </p>
+            <div class="about__social">
+              <a href="https://www.facebook.com/" class="about__social-link">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="about__social-link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="https://twitter.com/" class="about__social-link">
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a href="https://github.com/" class="about__social-link">
+                <i class="ri-github-fill"></i>
+              </a>
+              <a href="https://www.linkedin.com/" class="about__social-link">
+                <i class="ri-linkedin-fill"></i>
+              </a>
+            </div>
+            <p class="about__note">
+              He doesn't write messages on social networks, send me an email and
+              I'll answer you.
+            </p>
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+
+          <!--===== SKILLS =====-->
+
+          <div class="skills">
+            <h2 class="skills__title">Skills</h2>
+            <div class="skills__items">
+              <img
+                src="assets/img/skills-html.svg"
+                alt="image"
+                class="skills__item"
+              />
+              <img
+                src="assets/img/skills-css.svg"
+                alt="image"
+                class="skills__item"
+              />
+              <img
+                src="assets/img/skills-javascript.svg"
+                alt="image"
+                class="skills__item"
+              />
+              <img
+                src="assets/img/skills-react.svg"
+                alt="image"
+                class="skills__item"
+              />
+              <img
+                src="assets/img/skills-github.svg"
+                alt="image"
+                class="skills__item"
+              />
+              <img
+                src="assets/img/skills-tailwind-css.svg"
+                alt="image"
+                class="skills__item"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <div class="container">
+          <!-- Particles.js background for section only -->
+          <div id="particles-js"></div>
+
+          <div class="section-title">
+            <h2>My Projects</h2>
+            <p>
+              Explore a collection of the best projects that have been completed
+              with care and attention.
+            </p>
+          </div>
+
+          <!-- Swiper Slider -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- Project 1 -->
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <img
+                    src="assets/img/screencapture-altamayozmed-2025-07-22-09_36_03.webp"
+                    alt="مشروع تطبيق ويب"
+                    class="project-image"
+                  />
+                  <div class="project-overlay">
+                    <h3 class="project-title">تطبيق ويب تفاعلي</h3>
+                    <p class="project-description">
+                      منصة ويب حديثة مطورة باستخدام أحدث التقنيات لتوفير تجربة
+                      استخدام مميزة
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <img
+                    src="assets/img/screencapture-bshtwshal-2025-07-22-09_32_25.webp"
+                    alt="تطبيق موبايل"
+                    class="project-image"
+                  />
+                  <div class="project-overlay">
+            <h3 class="project-title">تطبيق ويب تفاعلي</h3>
+                    <p class="project-description">
+                      منصة ويب حديثة مطورة باستخدام أحدث التقنيات لتوفير تجربة
+                      استخدام مميزة
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <img
+                    src="assets/img/screencapture-file-D-temp3-index-html-2025-07-24-10_05_19.png"
+                    alt="نظام إدارة"
+                    class="project-image"
+                  />
+                  <div class="project-overlay">
+                  <h3 class="project-title">تطبيق ويب تفاعلي</h3>
+                    <p class="project-description">
+                      منصة ويب حديثة مطورة باستخدام أحدث التقنيات لتوفير تجربة
+                      استخدام مميزة
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 4 -->
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <img
+                    src="assets/img/screencapture-file-D-temp5-index-html-2025-07-24-10_05_56.webp"
+                    alt="موقع تجاري"
+                    class="project-image"
+                  />
+                  <div class="project-overlay">
+            <h3 class="project-title">تطبيق ويب تفاعلي</h3>
+                    <p class="project-description">
+                      منصة ويب حديثة مطورة باستخدام أحدث التقنيات لتوفير تجربة
+                      استخدام مميزة
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 5 -->
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <img
+                    src="assets/img/screencapture-file-D-temp7-index-html-2025-07-24-10_06_36.webp"
+                    alt="منصة تعليمية"
+                    class="project-image"
+                  />
+                  <div class="project-overlay">
+            <h3 class="project-title">تطبيق ويب تفاعلي</h3>
+                    <p class="project-description">
+                      منصة ويب حديثة مطورة باستخدام أحدث التقنيات لتوفير تجربة
+                      استخدام مميزة
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 6 -->
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <img
+                    src="assets/img/screencapture-chorlu-store-2025-07-24-12_55_00.webp"
+                    alt="تحليل البيانات"
+                    class="project-image"
+                  />
+                  <div class="project-overlay">
+            <h3 class="project-title">تطبيق ويب تفاعلي</h3>
+                    <p class="project-description">
+                      منصة ويب حديثة مطورة باستخدام أحدث التقنيات لتوفير تجربة
+                      استخدام مميزة
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">SERVICES I OFFER</h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__icon">
+              <div class="services__circle"></div>
+              <i class="ri-code-s-slash-line"></i>
+            </div>
+            <h3 class="services__name">Web Development</h3>
+            <p class="services__descriotion">
+              Short description of the service offered to users to obtain a
+              personalized project.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== EXPERIENCE ====================-->
+      <!-- <section class="experience section" id="experience"></section> -->
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">CONTACT ME</h2>
+        <div class="div contact__container container grid">
+          <form action="post" class="contact__forme grid" id="contact-form">
+            <div class="contact__group grid">
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Names"
+                required
+                class="contact__input"
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                required
+                class="contact__input"
+              />
+            </div>
+            <textarea class="contact__input contact__area" name="user__message" placeholder="Message" ></textarea>
+            <buttton type="submit" class=" button  contact__button">Send Message</buttton>
+            <p class="contact__massage" id="contact-massage">
+               Massage
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container cotainer grid">
+         <div class="footer__contaent grid">
+            <a href="#" class="footer__logo">
+               Barakat
+            </a>
+            <ul class="footer__links">
+               <li><a href="#home" class="footer__link">Home</a></li>
+               <li><a href="#projects" class="footer__link">Projects</a></li>
+               <li><a href="#services" class="footer__link">Services</a></li>
+            </ul>
+         </div>
+         <div class="footer__social">
+            <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+               <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+               <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="footer__social-link">
+               <i class="ri-twitter-fill"></i>
+            </a>
+            
+         </div>
+      </div>
+      <span class="footer__copy">&#169; Barakat. All rights reserved</span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+<a href="#" class="scrollup" id="scroii-up">
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <!-- Particles.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+        el: "#perfil",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x000000,
+        backgroundColor: 0xe6dbd2,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        points: 20.0,
+        maxDistance: 24.0,
+        spacing: 20.0,
+      });
+    </script>
+  </body>
+</html>
